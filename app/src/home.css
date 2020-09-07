@@ -1,0 +1,230 @@
+.home-cont{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: white;
+    z-index: 2;
+}
+
+.nav-cont{
+    width: 100%;
+    height: 10vh;
+    background: white;
+  }
+
+  .nav-cont .Logo{
+    display: none;
+  }
+
+  .nav-cont h1{
+      float: left;
+      margin: 0;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      margin-left: 25px;
+      font-family: Poppins;
+  }
+
+  .nav-cont .Profile-Img{
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      float: right;
+      height: 70%;
+      margin-right: 25px;
+  }
+
+  .main{
+      height: auto;
+      width: 100%;
+      background: rgb(230, 230, 230);
+      padding-bottom: 50px;
+  }
+
+  .brief-cont{
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+  }
+
+  .brief-item{
+    margin-top: 50px;
+    width: 20%;
+    background: white;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .brief-i-cont{
+      float: left;
+      width: 50px;
+      height: 50px;
+      border-radius: 200px;
+      
+  }
+
+  .brief-i-cont-1{
+    background: rgb(214, 42, 214);
+  }
+
+  .brief-i-cont-2{
+      background: rgb(65, 250, 158);
+  }
+
+  .brief-i-cont-3{
+      background: rgb(255, 217, 93);
+  }
+
+  .brief-i-cont img{
+    position: relative;  
+    width:45%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .brief-item h1{
+      float: left;
+      font-size: 15px;
+      margin-left: 0;
+      font-family: Recursive;
+      color: rgb(173, 173, 173);
+  }
+
+  .brief-item span{
+      font-size: 25px;
+      margin-left: 10px;
+      font-family: Recursive;
+      color: rgb(100, 100, 100);
+  }
+
+  .visitors-brief-info-cont{
+      display: flex;
+      justify-content: center;
+      margin-top: 50px;
+  }
+
+  .visitors-brief-info-cont .left-cont{
+      width: 30%;
+      background: white;
+      height: auto;
+      margin-left: 10px;
+      margin-right: 10px;
+  }
+
+  .visitors-brief-info-cont .left-cont .img-h2-cont{
+      display: inline-block;
+      position: relative;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      padding-top: 20px;
+      padding-bottom: 20px;
+  }
+
+  .visitors-brief-info-cont .left-cont img{
+      float: left;
+  }
+
+  .visitors-brief-info-cont .left-cont h2{
+      float: left;
+      font-family: recursive;
+      font-size: 20px;
+      margin-top: 0;
+      margin-bottom: 0;
+      margin-left: 10px;
+  }
+
+  .visitors-brief-info-cont .right-cont{
+    width: 30%;
+    background: white;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .visitors-brief-info-cont .right-cont .h2-span-cont{
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .visitors-brief-info-cont .right-cont .h2-span-cont h2{
+      display: inline-block;
+      font-family: recursive;
+      font-size: 20px;
+      margin-top: 0;
+      margin-bottom: 0;
+  }
+
+  .visitors-brief-info-cont .right-cont .h2-span-cont span{
+      display: inline-block;
+      font-family: recursive;
+      font-size: 20px;
+      margin-top: 0;
+      margin-bottom: 0;
+      font-weight: bold;
+      color: rgb(39, 201, 255);
+  }
+
+  .visitors-detailed-info-cont{
+      display: flex;
+      justify-content: center;
+      margin-top: 50px;
+  }
+
+  .visitors-detailed-info-cont .left-cont{
+      width: 30%;
+      height: auto;
+      background: white;
+      margin-left: 10px;
+      margin-right: 10px;
+  }
+
+  .visitors-detailed-info-cont .left-cont .visitors-cont{
+      display: inline-block;
+      position: relative;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+  }
+
+  .visitors-detailed-info-cont .left-cont .visitors-cont h2{
+      font-family: recursive;
+      font-size: 30px;
+      
+  }
+
+  .visitors-detailed-info-cont .right-cont{
+    width: 30%;
+    height: auto;
+    background: white;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .visitors-detailed-info-cont .right-cont .messages-cont{
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .visitors-detailed-info-cont .right-cont .messages-cont h2{
+    font-family: recursive;
+    font-size: 30px;
+    margin: 0;
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
